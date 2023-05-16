@@ -7,8 +7,8 @@ inheritances:
 - azure.ai.ml.entities._compute.compute.Compute
 summary: Kubernetes Compute resource.
 constructor:
-  syntax: 'KubernetesCompute(*, namespace: str | None = ''default'', properties: Dict[str,
-    Any] | None = None, identity: IdentityConfiguration = None, **kwargs)'
+  syntax: 'KubernetesCompute(*, namespace: str = ''default'', properties: Dict[str,
+    Any] | None = None, identity: IdentityConfiguration | None = None, **kwargs)'
   parameters:
   - name: name
     description: Name of the compute
@@ -25,6 +25,11 @@ constructor:
     isRequired: true
     types:
     - <xref:Optional>[<xref:str>], <xref:optional>
+  - name: tags
+    description: A set of tags. Contains resource tags defined as key/value pairs.
+    isRequired: true
+    types:
+    - <xref:Optional>[<xref:dict>[<xref:str>, <xref:str>]]
   - name: resource_id
     description: ARM resource id of the underlying compute, defaults to None
     isRequired: true

@@ -8,20 +8,19 @@ inheritances:
 summary: 'OnlineDeploymentOperations.
 
 
-  You should not instantiate this class directly. Instead, you should
+  You should not instantiate this class directly. Instead, you should create an MLClient
+  instance that instantiates it
 
-  create an MLClient instance that instantiates it for you and
-
-  attaches it as an attribute.'
+  for you and attaches it as an attribute.'
 constructor:
   syntax: 'OnlineDeploymentOperations(operation_scope: OperationScope, operation_config:
-    OperationConfig, service_client_02_2022_preview: AzureMachineLearningWorkspaces,
+    OperationConfig, service_client_04_2023_preview: AzureMachineLearningWorkspaces,
     all_operations: OperationsContainer, local_deployment_helper: _LocalDeploymentHelper,
-    credentials: TokenCredential = None, **kwargs: Dict)'
+    credentials: TokenCredential | None = None, **kwargs: Dict)'
   parameters:
   - name: operation_scope
   - name: operation_config
-  - name: service_client_02_2022_preview
+  - name: service_client_04_2023_preview
   - name: all_operations
   - name: local_deployment_helper
   - name: credentials
@@ -31,8 +30,8 @@ methods:
   name: begin_create_or_update
   summary: Create or update a deployment.
   signature: 'begin_create_or_update(deployment: OnlineDeployment, *, local: bool
-    = False, vscode_debug: bool = False, skip_script_validation: bool = False) ->
-    LROPoller[OnlineDeployment]'
+    = False, vscode_debug: bool = False, skip_script_validation: bool = False, **kwargs)
+    -> LROPoller[OnlineDeployment]'
   parameters:
   - name: deployment
     description: the deployment entity
@@ -95,11 +94,11 @@ methods:
       VSCode debug is only supported for local endpoints.'
   - type: azure.ai.ml.exceptions.VSCodeCommandNotFound
     description: Raised if VSCode instance cannot be instantiated.
-- uid: azure.ai.ml.operations.OnlineDeploymentOperations.delete
-  name: delete
+- uid: azure.ai.ml.operations.OnlineDeploymentOperations.begin_delete
+  name: begin_delete
   summary: Delete a deployment.
-  signature: 'delete(name: str, endpoint_name: str, *, local: bool | None = False)
-    -> LROPoller[None]'
+  signature: 'begin_delete(name: str, endpoint_name: str, *, local: bool | None =
+    False) -> LROPoller[None]'
   parameters:
   - name: name
     description: The name of the deployment

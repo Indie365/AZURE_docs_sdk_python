@@ -1,0 +1,34 @@
+### YamlMime:PythonClass
+uid: azure.mgmt.containerservice.v2020_11_01.models.ManagedClusterSKU
+name: ManagedClusterSKU
+fullName: azure.mgmt.containerservice.v2020_11_01.models.ManagedClusterSKU
+module: azure.mgmt.containerservice.v2020_11_01.models
+inheritances:
+- msrest.serialization.Model
+summary: ManagedClusterSKU.
+constructor:
+  syntax: 'ManagedClusterSKU(*, name: str | ManagedClusterSKUName | None = None, tier:
+    str | ManagedClusterSKUTier | None = None, **kwargs)'
+  parameters:
+  - name: name
+    description: 'Name of a managed cluster SKU. Possible values include: "Basic".'
+    types:
+    - <xref:str>
+    - <xref:azure.mgmt.containerservice.v2020_11_01.models.ManagedClusterSKUName>
+  - name: tier
+    description: 'Tier of a managed cluster SKU. Possible values include: "Paid",
+      "Free".'
+    types:
+    - <xref:str>
+    - <xref:azure.mgmt.containerservice.v2020_11_01.models.ManagedClusterSKUTier>
+variables:
+- description: 'Name of a managed cluster SKU. Possible values include: "Basic".'
+  name: name
+  types:
+  - <xref:str>
+  - <xref:azure.mgmt.containerservice.v2020_11_01.models.ManagedClusterSKUName>
+- description: 'Tier of a managed cluster SKU. Possible values include: "Paid", "Free".'
+  name: tier
+  types:
+  - <xref:str>
+  - <xref:azure.mgmt.containerservice.v2020_11_01.models.ManagedClusterSKUTier>

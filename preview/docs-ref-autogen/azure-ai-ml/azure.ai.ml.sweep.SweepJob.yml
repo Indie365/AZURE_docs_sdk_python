@@ -7,16 +7,38 @@ inheritances:
 - azure.ai.ml.entities._job.job.Job
 - azure.ai.ml.entities._job.sweep.parameterized_sweep.ParameterizedSweep
 - azure.ai.ml.entities._job.job_io_mixin.JobIOMixin
-summary: Sweep job for hyperparameter tuning.
+summary: 'Sweep job for hyperparameter tuning.
+
+
+  ~azure.mgmt.machinelearningservices.models.BanditPolicy,
+
+  ~azure.mgmt.machinelearningservices.models.MedianStoppingPolicy,
+
+  ~azure.mgmt.machinelearningservices.models.TruncationSelectionPolicy]
+
+  :param limits: Limits for the sweep job.
+
+  :type limits: ~azure.ai.ml.entities.SweepJobLimits
+
+  :param queue_settings: Queue settings for the job.
+
+  :type queue_settings: QueueSettings
+
+  :param kwargs: A dictionary of additional configuration parameters.
+
+  :type kwargs: dict'
 constructor:
-  syntax: 'SweepJob(*, name: str = None, description: str = None, tags: Dict = None,
-    display_name: str = None, experiment_name: str = None, identity: ManagedIdentity
-    | AmlToken | UserIdentity = None, inputs: Dict[str, int | str | float | bool |
-    Input] = None, outputs: Dict[str, Output] = None, compute: str = None, limits:
-    SweepJobLimits = None, sampling_algorithm: str | SamplingAlgorithm = None, search_space:
-    Dict[str, SweepDistribution] = None, objective: Objective = None, trial: CommandJob
-    | CommandComponent = None, early_termination: EarlyTerminationPolicy = None, **kwargs:
-    Any)'
+  syntax: 'SweepJob(*, name: str | None = None, description: str | None = None, tags:
+    Dict | None = None, display_name: str | None = None, experiment_name: str | None
+    = None, identity: ManagedIdentityConfiguration | AmlTokenConfiguration | UserIdentityConfiguration
+    | None = None, inputs: Dict[str, int | str | float | bool | Input] | None = None,
+    outputs: Dict[str, Output] | None = None, compute: str | None = None, limits:
+    SweepJobLimits | None = None, sampling_algorithm: str | SamplingAlgorithm | None
+    = None, search_space: Dict[str, Choice | LogNormal | LogUniform | Normal | QLogNormal
+    | QLogUniform | QNormal | QUniform | Randint | Uniform] | None = None, objective:
+    Objective | None = None, trial: CommandJob | CommandComponent | None = None, early_termination:
+    BanditPolicy | MedianStoppingPolicy | TruncationSelectionPolicy | None = None,
+    queue_settings: QueueSettings | None = None, **kwargs: Any)'
   parameters:
   - name: name
     description: Name of the job.
@@ -55,8 +77,7 @@ constructor:
     description: Identity that training job will use while running on compute.
     isRequired: true
     types:
-    - <xref:Union>[<xref:azure.ai.ml.ManagedIdentity>, <xref:azure.ai.ml.AmlToken>,
-      <xref:azure.ai.ml.UserIdentity>]
+    - <xref:Union>[<xref:azure.ai.ml.ManagedIdentityConfiguration,azure.ai.ml.AmlTokenConfiguration,azure.ai.ml.UserIdentityConfiguration>]
   - name: inputs
     description: Inputs to the command.
     isRequired: true
@@ -107,14 +128,4 @@ constructor:
       policy will be applied.'
     isRequired: true
     types:
-    - <xref:EarlyTerminationPolicy>
-  - name: limits
-    description: Limits for the sweep job.
-    isRequired: true
-    types:
-    - <xref:azure.ai.ml.entities.SweepJobLimits>
-  - name: kwargs
-    description: A dictionary of additional configuration parameters.
-    isRequired: true
-    types:
-    - <xref:dict>
+    - <xref:Union>[

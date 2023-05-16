@@ -1,0 +1,56 @@
+### YamlMime:PythonClass
+uid: azure.communication.jobrouter.JobOffer
+name: JobOffer
+fullName: azure.communication.jobrouter.JobOffer
+module: azure.communication.jobrouter
+inheritances:
+- azure.communication.jobrouter._generated._serialization.Model
+summary: 'An offer of a job to a worker.
+
+
+  All required parameters must be populated in order to send to Azure.'
+constructor:
+  syntax: 'JobOffer(*, id: str, job_id: str, capacity_cost: int, offer_time_utc: datetime
+    | None = None, expiry_time_utc: datetime | None = None, **kwargs: Any)'
+  parameters:
+  - name: id
+    description: The Id of the offer. Required.
+    types:
+    - <xref:str>
+  - name: job_id
+    description: The Id of the job. Required.
+    types:
+    - <xref:str>
+  - name: capacity_cost
+    description: The capacity cost consumed by the job offer. Required.
+    types:
+    - <xref:int>
+  - name: offer_time_utc
+    description: The time the offer was created.
+    types:
+    - <xref:datetime.datetime>
+  - name: expiry_time_utc
+    description: The time that the offer will expire.
+    types:
+    - <xref:datetime.datetime>
+variables:
+- description: The Id of the offer. Required.
+  name: id
+  types:
+  - <xref:str>
+- description: The Id of the job. Required.
+  name: job_id
+  types:
+  - <xref:str>
+- description: The capacity cost consumed by the job offer. Required.
+  name: capacity_cost
+  types:
+  - <xref:int>
+- description: The time the offer was created.
+  name: offer_time_utc
+  types:
+  - <xref:datetime.datetime>
+- description: The time that the offer will expire.
+  name: expiry_time_utc
+  types:
+  - <xref:datetime.datetime>

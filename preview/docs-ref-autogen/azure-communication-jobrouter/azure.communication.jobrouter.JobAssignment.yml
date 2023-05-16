@@ -1,0 +1,57 @@
+### YamlMime:PythonClass
+uid: azure.communication.jobrouter.JobAssignment
+name: JobAssignment
+fullName: azure.communication.jobrouter.JobAssignment
+module: azure.communication.jobrouter
+inheritances:
+- azure.communication.jobrouter._generated._serialization.Model
+summary: 'Assignment details of a job to a worker.
+
+
+  All required parameters must be populated in order to send to Azure.'
+constructor:
+  syntax: 'JobAssignment(*, id: str, assign_time: datetime, worker_id: str | None
+    = None, complete_time: datetime | None = None, close_time: datetime | None = None,
+    **kwargs: Any)'
+  parameters:
+  - name: id
+    description: The Id of the job assignment. Required.
+    types:
+    - <xref:str>
+  - name: worker_id
+    description: The Id of the Worker assigned to the job.
+    types:
+    - <xref:str>
+  - name: assign_time
+    description: The assignment time of the job. Required.
+    types:
+    - <xref:datetime.datetime>
+  - name: complete_time
+    description: The time the job was marked as completed after being assigned.
+    types:
+    - <xref:datetime.datetime>
+  - name: close_time
+    description: The time the job was marked as closed after being completed.
+    types:
+    - <xref:datetime.datetime>
+variables:
+- description: The Id of the job assignment. Required.
+  name: id
+  types:
+  - <xref:str>
+- description: The Id of the Worker assigned to the job.
+  name: worker_id
+  types:
+  - <xref:str>
+- description: The assignment time of the job. Required.
+  name: assign_time
+  types:
+  - <xref:datetime.datetime>
+- description: The time the job was marked as completed after being assigned.
+  name: complete_time
+  types:
+  - <xref:datetime.datetime>
+- description: The time the job was marked as closed after being completed.
+  name: close_time
+  types:
+  - <xref:datetime.datetime>

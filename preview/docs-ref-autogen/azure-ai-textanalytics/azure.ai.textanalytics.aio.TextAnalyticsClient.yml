@@ -68,7 +68,7 @@ examples:
 - "Creating the TextAnalyticsClient with endpoint and API key.<!--[!code-python[Main](les\\\
   async_samples\\sample_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\"\
   : [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-  : \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+  : \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
   \\samples\\\\async_samples\\\\sample_authentication_async.py\", \"xml:space\": \"\
   preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\": {\"\
   linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n   from\
@@ -79,7 +79,7 @@ examples:
   \ and token credential from Azure Active Directory.<!--[!code-python[Main](les\\\
   async_samples\\sample_authentication_async.py )]-->\n\n<!-- literal_block {\"ids\"\
   : [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\"\
-  : \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+  : \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
   \\samples\\\\async_samples\\\\sample_authentication_async.py\", \"xml:space\": \"\
   preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\": {\"\
   linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n   from\
@@ -226,7 +226,7 @@ methods:
   - "Analyze sentiment in a batch of documents.<!--[!code-python[Main](les\\async_samples\\\
     sample_analyze_sentiment_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
-    \ \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    \ \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_analyze_sentiment_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -389,7 +389,7 @@ methods:
   - "Perform abstractive summarization on a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_abstractive_summary_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_abstractive_summary_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -620,7 +620,7 @@ methods:
     \ over\na batch of documents.<!--[!code-python[Main](les\\async_samples\\sample_analyze_actions_async.py\
     \ )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\": [], \"names\": [], \"\
     dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\\
-    dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\\samples\\\\async_samples\\\
+    dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\\samples\\\\async_samples\\\
     \\sample_analyze_actions_async.py\", \"xml:space\": \"preserve\", \"force\": false,\
     \ \"language\": \"python\", \"highlight_args\": {\"linenostart\": 1}, \"linenos\"\
     : false} -->\n\n````python\n\n   import os\n   from azure.core.credentials import\
@@ -861,7 +861,7 @@ methods:
   - "Analyze healthcare entities in a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_analyze_healthcare_entities_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_analyze_healthcare_entities_async.py\", \"\
     xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -1028,7 +1028,7 @@ methods:
   - "Perform extractive summarization on a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_extract_summary_async.py )]-->\n\n<!-- literal_block {\"\
     ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [],\
-    \ \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    \ \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_extract_summary_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -1193,7 +1193,7 @@ methods:
   - "Perform multi label classification on a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_multi_label_classify_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_multi_label_classify_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -1358,7 +1358,7 @@ methods:
   - "Recognize custom entities in a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_recognize_custom_entities_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_recognize_custom_entities_async.py\", \"\
     xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -1509,7 +1509,7 @@ methods:
   - "Perform single label classification on a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_single_label_classify_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_single_label_classify_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -1641,9 +1641,9 @@ methods:
   - "Detecting language in a batch of documents.<!--[!code-python[Main](les\\async_samples\\\
     sample_detect_language_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"classes\"\
     : [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\": \"D:\\\\\
-    a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\\\
-    samples\\\\async_samples\\\\sample_detect_language_async.py\", \"xml:space\":\
-    \ \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
+    a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
+    \\samples\\\\async_samples\\\\sample_detect_language_async.py\", \"xml:space\"\
+    : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
     \   from azure.core.credentials import AzureKeyCredential\n   from azure.ai.textanalytics.aio\
     \ import TextAnalyticsClient\n\n   endpoint = os.environ[\"AZURE_LANGUAGE_ENDPOINT\"\
@@ -1665,161 +1665,6 @@ methods:
     \       print(\"Review #{} is in '{}', which has ISO639-1 name '{}'\\n\".format(\n\
     \           idx, doc.primary_language.name, doc.primary_language.iso6391_name\n\
     \       ))\n\n   ````\n"
-- uid: azure.ai.textanalytics.aio.TextAnalyticsClient.dynamic_classification
-  name: dynamic_classification
-  summary: 'Perform dynamic classification on a batch of documents.
-
-
-    On the fly classification of the input documents into one or multiple categories.
-
-    Assigns either one or multiple categories per document. This type of classification
-
-    doesn''t require model training.
-
-
-    > [!NOTE]
-
-    > The dynamic classification feature is part of a gated preview. Request access
-    here:
-
-    >
-
-    > [https://aka.ms/applyforgatedlanguagefeature](https://aka.ms/applyforgatedlanguagefeature)
-
-    >
-
-
-    See [https://aka.ms/azsdk/textanalytics/data-limits](https://aka.ms/azsdk/textanalytics/data-limits)
-    for service data limits.
-
-
-    New in version 2022-10-01-preview: The *dynamic_classification* client method.'
-  signature: 'async dynamic_classification(documents: List[str] | List[TextDocumentInput]
-    | List[Dict[str, str]], categories: List[str], *, classification_type: str | ClassificationType
-    | None = None, disable_service_logs: bool | None = None, language: str | None
-    = None, model_version: str | None = None, show_stats: bool | None = None, **kwargs:
-    Any) -> List[DynamicClassificationResult | DocumentError]'
-  parameters:
-  - name: documents
-    description: 'The set of documents to process as part of this batch.
-
-      If you wish to specify the ID and language on a per-item basis you must
-
-      use as input a list[<xref:azure.ai.textanalytics.TextDocumentInput>] or a list
-
-      of dict representations of <xref:azure.ai.textanalytics.TextDocumentInput>,
-
-      like *{"id": "1", "language": "en", "text": "hello world"}*.'
-    isRequired: true
-    types:
-    - <xref:list>[<xref:str>]
-    - <xref:list>[<xref:azure.ai.textanalytics.TextDocumentInput>]
-    - <xref:list>[<xref:dict>[<xref:str>, <xref:str>]]
-  - name: categories
-    description: A list of categories to which input is classified to.
-    isRequired: true
-    types:
-    - <xref:list>[<xref:str>]
-  - name: classification_type
-    description: 'Specifies either one or multiple categories per document. Defaults
-
-      to multi classification which may return more than one class for each document.
-      Known values
-
-      are: "Single" and "Multi".'
-    types:
-    - <xref:str>
-    - <xref:azure.ai.textanalytics.ClassificationType>
-  - name: language
-    description: 'The 2 letter ISO 639-1 representation of language for the
-
-      entire batch. For example, use "en" for English; "es" for Spanish etc.
-
-      If not set, uses "en" for English as default. Per-document language will
-
-      take precedence over whole batch language. See [https://aka.ms/talangs](https://aka.ms/talangs)
-      for
-
-      supported languages in Language API.'
-    types:
-    - <xref:str>
-  - name: model_version
-    description: 'This value indicates which model will
-
-      be used for scoring, e.g. "latest", "2019-10-01". If a model-version
-
-      is not specified, the API will default to the latest, non-preview version.
-
-      See here for more info: [https://aka.ms/text-analytics-model-versioning](https://aka.ms/text-analytics-model-versioning)'
-    types:
-    - <xref:str>
-  - name: show_stats
-    description: 'If set to true, response will contain document
-
-      level statistics in the *statistics* field of the document-level response.'
-    types:
-    - <xref:bool>
-  - name: disable_service_logs
-    description: 'If set to true, you opt-out of having your text input
-
-      logged on the service side for troubleshooting. By default, the Language service
-      logs your
-
-      input text for 48 hours, solely to allow for troubleshooting issues in providing
-      you with
-
-      the service''s natural language processing functions. Setting this parameter
-      to true,
-
-      disables input logging and may limit our ability to remediate issues that occur.
-      Please see
-
-      Cognitive Services Compliance and Privacy notes at [https://aka.ms/cs-compliance](https://aka.ms/cs-compliance)
-      for
-
-      additional details, and Microsoft Responsible AI principles at
-
-      [https://www.microsoft.com/ai/responsible-ai](https://www.microsoft.com/ai/responsible-ai).'
-    types:
-    - <xref:bool>
-  return:
-    description: 'The combined list of <xref:azure.ai.textanalytics.DynamicClassificationResult>
-      and
-
-      <xref:azure.ai.textanalytics.DocumentError> in the order the original documents
-
-      were passed in.'
-    types:
-    - <xref:list>[<xref:azure.ai.textanalytics.DynamicClassificationResult>
-    - <xref:azure.ai.textanalytics.DocumentError>]
-  exceptions:
-  - type: azure.core.exceptions.HttpResponseError
-  examples:
-  - "Perform dynamic classification on a batch of documents.<!--[!code-python[Main](les\\\
-    async_samples\\sample_dynamic_classification_async.py )]-->\n\n<!-- literal_block\
-    \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
-    \\samples\\\\async_samples\\\\sample_dynamic_classification_async.py\", \"xml:space\"\
-    : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
-    : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
-    \   from azure.core.credentials import AzureKeyCredential\n   from azure.ai.textanalytics.aio\
-    \ import TextAnalyticsClient\n\n   endpoint = os.environ[\"AZURE_LANGUAGE_ENDPOINT\"\
-    ]\n   key = os.environ[\"AZURE_LANGUAGE_KEY\"]\n\n   text_analytics_client = TextAnalyticsClient(\n\
-    \       endpoint=endpoint,\n       credential=AzureKeyCredential(key),\n   )\n\
-    \   documents = [\n       \"The WHO is issuing a warning about Monkey Pox.\",\n\
-    \       \"Mo Salah plays in Liverpool FC in England.\",\n   ]\n\n   async with\
-    \ text_analytics_client:\n       results = await text_analytics_client.dynamic_classification(\n\
-    \           documents,\n           categories=[\"Health\", \"Politics\", \"Music\"\
-    , \"Sports\"],\n           classification_type=\"Multi\"\n       )\n\n   for doc,\
-    \ classification_result in zip(documents, results):\n       if classification_result.kind\
-    \ == \"DynamicClassification\":\n           classifications = classification_result.classifications\n\
-    \           print(f\"\\n'{doc}' classifications:\\n\")\n           for classification\
-    \ in classifications:\n               print(\"Category '{}' with confidence score\
-    \ {}.\".format(\n                   classification.category, classification.confidence_score\n\
-    \               ))\n       elif classification_result.is_error is True:\n    \
-    \       print(\"Document '{}' has an error with code '{}' and message '{}'\".format(\n\
-    \               doc, classification_result.error.code, classification_result.error.message\n\
-    \           ))\n\n   ````\n"
 - uid: azure.ai.textanalytics.aio.TextAnalyticsClient.extract_key_phrases
   name: extract_key_phrases
   summary: 'Extract key phrases from a batch of documents.
@@ -1931,7 +1776,7 @@ methods:
   - "Extract the key phrases in a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_extract_key_phrases_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_extract_key_phrases_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -2075,7 +1920,7 @@ methods:
   - "Recognize entities in a batch of documents.<!--[!code-python[Main](les\\async_samples\\\
     sample_recognize_entities_async.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
-    \ \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    \ \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_recognize_entities_async.py\", \"xml:space\"\
     : \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -2226,7 +2071,7 @@ methods:
   - "Recognize linked entities in a batch of documents.<!--[!code-python[Main](les\\\
     async_samples\\sample_recognize_linked_entities_async.py )]-->\n\n<!-- literal_block\
     \ {\"ids\": [], \"classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\"\
-    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    : [], \"source\": \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\async_samples\\\\sample_recognize_linked_entities_async.py\", \"\
     xml:space\": \"preserve\", \"force\": false, \"language\": \"python\", \"highlight_args\"\
     : {\"linenostart\": 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n\
@@ -2390,7 +2235,7 @@ methods:
   - "Recognize personally identifiable information entities in a batch of documents.<!--[!code-python[Main](les\\\
     sample_recognize_pii_entities.py )]-->\n\n<!-- literal_block {\"ids\": [], \"\
     classes\": [], \"names\": [], \"dupnames\": [], \"backrefs\": [], \"source\":\
-    \ \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0b2\\\
+    \ \"D:\\\\a\\\\_work\\\\1\\\\s\\\\dist_temp\\\\46\\\\azure-ai-textanalytics-5.3.0a20230515001\\\
     \\samples\\\\sample_recognize_pii_entities.py\", \"xml:space\": \"preserve\",\
     \ \"force\": false, \"language\": \"python\", \"highlight_args\": {\"linenostart\"\
     : 1}, \"linenos\": false} -->\n\n````python\n\n   import os\n   from azure.core.credentials\

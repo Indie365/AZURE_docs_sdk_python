@@ -9,10 +9,11 @@ inheritances:
 - azure.ai.ml.entities._job.job_io_mixin.JobIOMixin
 summary: Command job.
 constructor:
-  syntax: 'CommandJob(*, inputs: Dict[str, int | str | float | bool | Input] = None,
-    outputs: Dict[str, Output] = None, limits: CommandJobLimits = None, identity:
-    ManagedIdentity | AmlToken | UserIdentity = None, services: Dict[str, JobService]
-    = None, **kwargs)'
+  syntax: 'CommandJob(*, inputs: Dict[str, int | str | float | bool | Input] | None
+    = None, outputs: Dict[str, Output] | None = None, limits: CommandJobLimits | None
+    = None, identity: ManagedIdentityConfiguration | AmlTokenConfiguration | UserIdentityConfiguration
+    | None = None, services: Dict[str, JobService | JupyterLabJobService | SshJobService
+    | TensorBoardJobService | VsCodeJobService] | None = None, **kwargs)'
   parameters:
   - name: name
     description: Name of the job.
@@ -87,7 +88,7 @@ constructor:
     description: Distribution configuration for distributed training.
     isRequired: true
     types:
-    - <xref:Union>[<xref:azure.ai.ml.PyTorchDistribution,azure.ai.ml.MpiDistribution,azure.ai.ml.TensorFlowDistribution>]
+    - <xref:Union>[<xref:azure.ai.ml.PyTorchDistribution,azure.ai.ml.MpiDistribution,azure.ai.ml.TensorFlowDistribution,azure.ai.ml.RayDistribution>]
   - name: environment
     description: Environment that training job will run in.
     isRequired: true
@@ -97,8 +98,7 @@ constructor:
     description: Identity that training job will use while running on compute.
     isRequired: true
     types:
-    - <xref:Union>[<xref:azure.ai.ml.ManagedIdentity>, <xref:azure.ai.ml.AmlToken>,
-      <xref:azure.ai.ml.UserIdentity>]
+    - <xref:Union>[<xref:azure.ai.ml.ManagedIdentityConfiguration,azure.ai.ml.AmlTokenConfiguration,azure.ai.ml.UserIdentityConfiguration>]
   - name: limits
     description: Command Job limit.
     isRequired: true

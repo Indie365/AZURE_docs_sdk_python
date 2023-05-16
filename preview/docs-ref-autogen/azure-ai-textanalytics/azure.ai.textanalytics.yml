@@ -25,7 +25,6 @@ classes:
 - azure.ai.textanalytics.DetectLanguageResult
 - azure.ai.textanalytics.DetectedLanguage
 - azure.ai.textanalytics.DocumentError
-- azure.ai.textanalytics.DynamicClassificationResult
 - azure.ai.textanalytics.ExtractKeyPhrasesAction
 - azure.ai.textanalytics.ExtractKeyPhrasesResult
 - azure.ai.textanalytics.ExtractSummaryAction
@@ -76,7 +75,6 @@ packages:
 enums:
 - azure.ai.textanalytics.AgeUnit
 - azure.ai.textanalytics.AreaUnit
-- azure.ai.textanalytics.ClassificationType
 - azure.ai.textanalytics.DateTimeSubKind
 - azure.ai.textanalytics.EntityAssociation
 - azure.ai.textanalytics.EntityCertainty

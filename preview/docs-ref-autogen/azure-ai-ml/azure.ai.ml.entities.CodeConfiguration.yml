@@ -4,10 +4,11 @@ name: CodeConfiguration
 fullName: azure.ai.ml.entities.CodeConfiguration
 module: azure.ai.ml.entities
 inheritances:
-- builtins.object
+- azure.ai.ml.entities._mixins.DictMixin
 summary: CodeConfiguration.
 constructor:
-  syntax: 'CodeConfiguration(code: str = None, scoring_script: str = None)'
+  syntax: 'CodeConfiguration(code: str | None = None, scoring_script: str | None =
+    None)'
   parameters:
   - name: code
     description: Code entity, defaults to None
