@@ -1053,7 +1053,7 @@
       href: ~/docs-ref-services/{moniker}/digitaltwins-core-readme.md
       children:
       - azure-digitaltwins-core
-    - name: IoT Plug and Play - IoT Device
+    - name: IoT Device
       href: ~/docs-ref-services/{moniker}/iot-device-readme.md
       children:
       - azure-iot-device
